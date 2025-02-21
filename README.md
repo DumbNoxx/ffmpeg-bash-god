@@ -28,7 +28,8 @@ You may need to create the alias manually and give execution permissions. If you
 Fist, clone the repository:
 
 ```bash
-```git clone git@github.com:DumbNoxx/ffmpeg-bash-god.git```
+git clone git@github.com:DumbNoxx/ffmpeg-bash-god.git
+```
 Next, navigate to the folder where the .sh file is located. So far, everything is the same as at the beginning, but here things change.
 
 When you reach the destination folder, instead of using `./ffmcap.sh`, we will do it manually:
