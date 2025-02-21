@@ -40,11 +40,13 @@ echo alias ffmcap="absolute_path_to_your_file/ffmcap.sh" >> ~/.bashrc
 After doing that, you will have the alias in your commands, but it's not activated yet. You need to activate it.
 
 ```bash
-chmod +x ffmcap.sh```
+chmod +x ffmcap.sh
+```
 
 First, give execution permissions to the file. After doing that...
 ```bash
-source ~/.bashrc```
+source ~/.bashrc
+```
 
 Or simply close and open the terminal again to reload the commands.
 
