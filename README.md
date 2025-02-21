@@ -10,8 +10,9 @@ git clone git@github.com:DumbNoxx/ffmpeg-bash-god.git`
 ```
 Next, you just need to navigate to the folder and run this:
 
-``` bash
-./ffmcap.sh```
+```bash
+./ffmcap.sh
+```
 
 And you’re all set!!
 
