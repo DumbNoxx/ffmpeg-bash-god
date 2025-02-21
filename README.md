@@ -6,7 +6,7 @@ Hello! ffmpeg-bash-god is a collection of scripts to record your screen (this is
 
 The only thing you have to do is clone the repository:
 ```bash
-git clone git@github.com:DumbNoxx/ffmpeg-bash-god.git`
+git clone git@github.com:DumbNoxx/ffmpeg-bash-god.git
 ```
 Next, you just need to navigate to the folder and run this:
 
