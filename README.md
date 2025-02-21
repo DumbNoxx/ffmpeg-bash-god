@@ -35,7 +35,8 @@ Next, navigate to the folder where the .sh file is located. So far, everything i
 When you reach the destination folder, instead of using `./ffmcap.sh`, we will do it manually:
 
 ```bash
-echo alias ffmcap="absolute_path_to_your_file/ffmcap.sh" >> ~/.bashrc```
+echo alias ffmcap="absolute_path_to_your_file/ffmcap.sh" >> ~/.bashrc
+```
 After doing that, you will have the alias in your commands, but it's not activated yet. You need to activate it.
 
 ```bash
