@@ -98,7 +98,7 @@ echo "Las dimensiones de su pantalla son:"
 echo " "
 echo "$dimensions"
 echo " "
-read -p "Ingrese el tamaño del video (ejemplo: 1366x768): " video_size
+read -p "Ingrese la resolución del video (ejemplo: 1366x768): " video_size
 
 # Pedir al usuario el framerayte
 echo " "
@@ -135,7 +135,7 @@ ffmpeg -f x11grab -video_size "$video_size" -framerate "$framerate" -i "$video_i
 
 # Mostrar el mensaje de grabación
 echo " "
-echo "Puedes cerrar la grabacion apretando q"
+echo "Puedes cerrar la grabacion apretando [q]"
 echo " "
 echo "Grabando..."
 
@@ -165,7 +165,7 @@ if [ $? -eq 0 ]; then
     echo " "
     echo "Renderizado con Exito..."
     echo " "
-    echo "Exportanto..."
+    echo "Exportando..."
     echo " "
     # Eliminando el video anterior de la grabacion
     rm "rendered_$output_name.mp4"
